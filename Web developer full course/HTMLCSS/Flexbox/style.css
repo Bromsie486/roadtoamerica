@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+}
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 -10px;
+    flex: 1;
+}
+.box {
+    display: inline-block;
+    width: 30%;
+    margin: 0.5em;
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
