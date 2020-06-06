@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/
+https://css-tricks.com/
+color picker: https://paletton.com/
+fonts: https://fonts.google.com/

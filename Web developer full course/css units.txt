@@ -1,0 +1,9 @@
+absolute
+px
+
+relative
+vw = relative to 1% of the width of the viewport	
+vh = relative to 1% of the height of the viewport
+em = relative to the current size
+rem = relative to font-size of the root element
+% = relative to the parent element

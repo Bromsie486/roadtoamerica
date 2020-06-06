@@ -1,0 +1,4 @@
+1. Talk to yourself loud about each line of your code, what it does
+2. Google / Stackoverflow
+3. Discord
+4. Repeat

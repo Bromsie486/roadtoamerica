@@ -1,0 +1,1 @@
+- Always name the main page as index.html because the server defaultly returns that
