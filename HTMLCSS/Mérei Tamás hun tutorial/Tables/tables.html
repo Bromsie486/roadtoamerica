@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <caption>Video Games</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col style = "background-color:yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Product Number</th>
+                <th>Publisher</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Riot Games</td>
+                <td>League of Legends</td>
+                <td rowspan="2">Free</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Blizzard Entertainament</td>
+                <td>Hearthstone</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Bethesda</td>
+                <td>Wolfenstein</td>
+                <td>60$</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Sony Entertainament</td>
+                <td>The Last of Us</td>
+                <td>60$</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan = "3">Overall:</td>
+                <td>120$</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>

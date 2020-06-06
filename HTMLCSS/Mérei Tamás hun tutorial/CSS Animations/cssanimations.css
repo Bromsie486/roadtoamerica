@@ -1,0 +1,140 @@
+ * {
+     box-sizing: border-box;
+ }
+ html {
+     height: 100%;
+ }
+ body {
+     height: 100%;
+     font-family: 'Roboto Mono', monospace;
+     background: linear-gradient(#fff,#a7a7a7);
+     margin: 0;
+ }
+ .wrapper {
+     display: flex;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+ }
+ .wrapper .content {
+     background: url("bg-box.png");
+     box-shadow: 0 0 100px rgba(255,255,255,0.8);
+     width: 600px;
+     height: 400px;
+     position: relative;
+     overflow: hidden;
+ }
+ .title {
+     position: absolute;
+     top: -93px;
+     width: 100%;
+     color: #f0ff00;
+     font-size: 35px;
+     text-align: center;
+     padding: 20px 0;
+     background: rgba(0,0,0,0.4);
+     animation-name: title;
+     animation-duration: 12s;
+     animation-fill-mode: forwards;
+}
+@keyframes title {
+    0% {
+        top: -93px;
+    }
+    20% {
+        top: 0px;
+    }
+    55% {
+        background: rgba(0,0,0,0.4);
+        color: #f0ff00;
+    }
+    95% {
+        top: 0;
+        background: #ff4e9c;
+        color: white;
+    }
+    100% {
+        top: -93px;
+    }
+}
+.shoe1 {
+    width: 500px;
+    height: 200px;
+    background: url("nike1.png");
+    position: absolute;
+    bottom: 50px;
+    left: -500px;
+    animation-name: shoe1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    /* animation-iteration-count: 3; */
+}
+@keyframes shoe1 {
+    0% {
+        left: -500px;
+    }
+    20%, 50% {
+        left: 50px;
+    }
+    100% {
+        left: 600px;
+    }
+}
+.shoe2 {
+    width: 500px;
+    height: 200px;
+    background: url("nike2.png");
+    position: absolute;
+    bottom: 50px;
+    left: -500px;
+    animation-name: shoe2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+
+}
+@keyframes shoe2 {
+    0% {
+        left: -500px;
+    }
+    20%, 50% {
+        left: 50px;
+    }
+    100% {
+        left: 600px;
+    }
+}
+.buy {
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    padding: 10px 0;
+    left: 125px;
+    top: -90px;
+    position: absolute;
+    font-size: 50px;
+    background: rgba(0,0,0,0.4);
+    color: #bfdf51;
+    /* animation-name: buy;
+    animation-duration: 5s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards; */
+    animation: buy 5s 12s forwards, pulse 0.1s 14s infinite;
+}
+@keyframes buy {
+    50%, 100% {
+        top: 155px;
+    }
+
+}
+@keyframes pulse {
+    0% {
+        background: rgba(0,0,0,0.4);
+        color: #bfdf51;
+    }
+    50% {
+        background: #bfdf51;
+        color: black;
+    }
+}

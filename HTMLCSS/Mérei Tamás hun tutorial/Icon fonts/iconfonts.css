@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?15438244');
+    src: url('../font/fontello.eot?15438244#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?15438244') format('woff2'),
+       url('../font/fontello.woff?15438244') format('woff'),
+       url('../font/fontello.ttf?15438244') format('truetype'),
+       url('../font/fontello.svg?15438244#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block; 
+    width: 1em;
+    text-align: center;
+    margin-right: 10px;
+}
+ 
+.icon-info:before { content: '\e800'; } /* '' */
+.icon-home:before { content: '\e801'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
+.icon-mail:before { content: '\f0e0'; } /* '' */
+.icon-bell:before { content: '\f0f3'; } /* '' */
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    background: #f4f4f4;
+}
+html {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+nav {
+    flex-basis: 230px;
+    background: #2d3744;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #839bb5;
+    display: block;
+    padding: 10px 20px;
+    /* transition-property: background-color;
+    transition-duration: 0.3s; */
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background: #02d098;
+    color: white;
+}

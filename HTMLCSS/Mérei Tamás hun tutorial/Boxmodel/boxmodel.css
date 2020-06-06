@@ -1,0 +1,64 @@
+/* Mindig megéri megcsinálni az elején:
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("jinx.jpg");
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.box {
+    background-color: white;
+    max-width: 400px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 5px 5px 30px rgba(0,0,0,1);
+}
+
+.box.box-2 .header-image {
+    background-image: url("anita.jpg");
+}
+
+.box .header-image {
+    height: 400px;
+    background-image: url("reka.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.box .content {
+    padding: 15px 10px;
+}
+
+.box .content h2 {
+    margin: 0;
+    color: #001280;
+}
+
+.box .content p {
+    color: #0e0d0d;
+}
+/* inline: ignores width, height, padding and margin
+   block: doesn't ignore these settings but fill the whole width
+   Iinline-block: doesn't ignore these settings and won't fill the whole width
+
+*/
+a.instagram{
+    background: teal;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+/*
+INHERITANCE 
+Lehet box.box-2 .header-image VAGY lehet .box-2 .header-image */

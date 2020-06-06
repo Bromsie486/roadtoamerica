@@ -1,0 +1,12 @@
+content: "";
+clear: both;
+display: table;
+
+
+ha több elemre kell:
+
+.x::after, .y::after {
+	content: "";
+	clear: both;
+	display: table;
+}

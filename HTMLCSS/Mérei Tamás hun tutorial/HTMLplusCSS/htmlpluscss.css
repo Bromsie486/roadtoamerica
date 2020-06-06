@@ -1,0 +1,15 @@
+html{
+    height: 100%;
+}
+body{
+    /* Shorthand */
+    background: url("jinx.jpg") green no-repeat center center fixed;
+
+    /* Shorthand: 
+    weight, size/line height, family, second family (if first not found)
+    */
+    font: bold 20px/27px 'Roboto Mono', monospace;
+    color: white;
+}
+
+

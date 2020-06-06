@@ -1,0 +1,7 @@
+https://www.w3schools.com/
+https://validator.w3.org/
+https://css-tricks.com/
+https://fonts.google.com/
+https://getbootstrap.com/
+https://fontawesome.com/ (fontello.com, icomoon.com)
+https://www.canva.com/ (képek szerkesztéséhez)

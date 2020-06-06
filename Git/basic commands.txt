@@ -1,0 +1,38 @@
+$ git init 		// Initialize Local Git Repository
+$ git add (file)	// Add Files to Index (staging area)
+$ git rm --cache	// Remove Files from Index (staging area)
+$ git status 		// Check Status of Working Tree (what is in staging area and whats not)
+$ git commit		// Commit Changes in Index (staging area)
+$ git push		// Push to Remote Repository (put your commited files to a remote place)
+$ git pull		// Pull the Latest version from the Remote Repository
+$ git clone		// Clones a Remote Repository and downloads it to a New Directory
+$ git branch (name)	// Creates a sub branch OR tells you the name of the branch you are on
+$ git checkout (name)	// Changes to the given sub branch OR changes to the given version by the given commit hash
+$ git merge (name)	// Merges two branches together
+$ git remote		// Lists all remote repositories
+$ git log		// Lists the commit history made by individuals
+
+
+git add:
+
+$ git add *.html 	// adds every html file to the staging area
+$ git add .		// adds everything in the current folder to the staging area
+
+
+git commit:
+
+$ git commit		// you have to manually edit the commit file to be able to commit
+$ git commit -m "whatever" // you do the same but skip the editing part
+
+- if you use: '$ git commit .', then the contents of .gitignore will not be commited
+
+
+.gitignore:
+
+- Anything thats in here is not gonna be commited
+- You can cover extensions by '*' e.g.: *.txt
+- You can cover directories by '/' e.g: /dir2
+
+git remote:
+
+To add remote repositories: $ git remote add (name) (url)

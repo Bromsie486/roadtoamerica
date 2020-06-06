@@ -1,0 +1,2 @@
+1. Add transition property to an item
+2. Set what properties u need for them, then set duration and delay

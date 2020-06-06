@@ -1,0 +1,108 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    background: url("bg-body.jpg") no-repeat;
+    background-size: cover;
+    /* color: white; */
+}
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 200px rgba(0,0,0,0.8);
+}
+header {
+    background: url("bg-header.jpg") no-repeat;
+    height: 360px;
+}
+nav {
+    background: rgba(190, 0, 0,.8);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    
+}
+nav a:hover {
+    background: rgba(0,0,0,0.8);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li {
+    float: left;  
+}
+nav .submenu {
+    position: absolute;
+    width: 150px;
+    display: none;
+}
+nav .has-submenu {
+    position: relative;
+}
+nav .has-submenu:hover .submenu {
+    display: block;
+}
+nav .has-submenu::after {
+    content: "🢓";
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    
+}
+nav .submenu a {
+    background: rgba(190, 0, 0, 1);
+    padding: 10px 20px;
+}
+nav .submenu a:hover {
+    background: rgba(0,0,0,1);
+}
+main {
+    padding: 30px;
+    background: white;
+}
+main p {
+    line-height: 1.5;
+    
+}
+main h1 {
+    margin-top: 0;
+}
+.cookie {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.cookie button{
+    background: yellow;
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cookie button:hover {
+    background: green;
+}
