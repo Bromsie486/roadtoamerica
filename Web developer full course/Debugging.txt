@@ -2,3 +2,13 @@
 2. Google / Stackoverflow
 3. Discord
 4. Repeat
+
+
+Also:
+
+Write these down:
+1. What is the problem?
+2. Possible solutions:
+3. Solutions tried and failed:
+
+This way you can get to the solution really fast
