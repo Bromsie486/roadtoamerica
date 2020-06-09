@@ -3,3 +3,10 @@ https://www.w3schools.com/
 https://css-tricks.com/
 color picker: https://paletton.com/
 fonts: https://fonts.google.com/
+animations: animate.css
+pre-made website templates to use: 
+	- https://www.creative-tim.com/
+	- http://www.mashup-template.com/
+ 	- https://getbootstrap.com/
+	- https://cruip.com/
+css grid cheat sheet: http://grid.malven.co/

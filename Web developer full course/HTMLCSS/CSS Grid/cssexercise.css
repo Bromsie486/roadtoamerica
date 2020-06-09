@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+header {
+    background: green;
+    
+}
+header ul {
+    list-style: none;
+    margin: 0;
+}
+header ul li {
+    display: inline-block;
+    padding: 1.5rem;
+    color: white;
+}
+header ul li:last-child {
+    float: right;
+    margin-right: 0.5rem;
+}
+header ul li:first-child {
+    margin: -0.5rem;
+}
+header ul li:hover {
+    background: rgba(0,0,0,0.2);
+}
+.cover {
+    background: rgb(117, 52, 143);
+    margin: 0;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover h2 {
+    margin: 0;
+}
+.projects {
+    background: lightskyblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.projects p {
+    margin: 1rem;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5rem;
+}
+footer {
+    background: orange;
+    text-align: center;
+    padding: 0.5rem 0;
+}
