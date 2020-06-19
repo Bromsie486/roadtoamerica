@@ -1,0 +1,13 @@
+normal function
+
+function sum(a,b) {
+	return a + b;
+}
+
+advanced way:
+
+const sum = (a,b) => a + b;
+
+- if there is only one thing to return, you can skip the return keyword
+- you can skip the "function" keyword, the curly braces and the brackets
+- this is called an arrow function
